@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Laser : MonoBehaviour {
 	private Transform myTransform;
 	
-	public float speed = 55.0f;
+	public float speed = 75.0f;
 	public GameObject Player;
 	public float timer;
 

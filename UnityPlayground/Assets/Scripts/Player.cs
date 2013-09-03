@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour {
@@ -6,10 +6,13 @@ public class Player : MonoBehaviour {
 	public float playerSpeed = 30.0f;
 	public float turnSpeed = 5.0F;
 	public GameObject Projectile;
-	
+	public Transform LaunchP1;
+	public Transform LaunchP2;
+	public Light lightMode;
 	private Transform myTransform;
 	// Use this for initialization
 	void Start () {
+		lightMode.enabled = false;
 		
 		myTransform = transform;
 		//Player Spawn Point
@@ -46,10 +49,11 @@ public class Player : MonoBehaviour {
 		//press space bar to fire laser
 		//if the player presses space bar a laser will shoot
 		if (Input.GetKeyDown("space")){
-			Vector3 position1 = new Vector3(myTransform.position.x -2, myTransform.position.y + 1, myTransform.position.z);
-			Vector3 position2 = new Vector3(myTransform.position.x +2, myTransform.position.y + 1, myTransform.position.z);
-			Instantiate(Projectile, position1, myTransform.rotation);
-			Instantiate(Projectile, position2, myTransform.rotation);
-		}		
+			Instantiate(Projectile, LaunchP1.position, myTransform.rotation);
+			Instantiate(Projectile, LaunchP2.position, myTransform.rotation);
+		}
+		if (Input.GetKeyUp(KeyCode.L)){
+			lightMode.enabled = !lightMode.enabled;
+		}
 	}
 }
