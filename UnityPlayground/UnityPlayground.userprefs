@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MyGui.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SpaceInvaderMovement.cs" Line="7" Column="16" />
+      <File FileName="Assets\Scripts\Laser.cs" Line="28" Column="3" />
+      <File FileName="Assets\Scripts\Player.cs" Line="45" Column="4" />
+      <File FileName="Assets\Scripts\ArrowDirectional.cs" Line="17" Column="101" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="37" Column="37" />
+      <File FileName="Assets\Scripts\MyGui.cs" Line="7" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
