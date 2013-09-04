@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\LightScript.cs" />
      <Compile Include="Assets\Scripts\MyGui.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\RotateShip.cs" />
      <Compile Include="Assets\Scripts\SpaceInvaderMovement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

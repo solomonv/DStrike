@@ -6,6 +6,7 @@ public class Player : MonoBehaviour {
 	public float playerSpeed = 30.0f;
 	public float turnSpeed = 5.0F;
 	public GameObject Projectile;
+
 	public Transform LaunchP1;
 	public Transform LaunchP2;
 	public Light lightMode;
@@ -55,5 +56,6 @@ public class Player : MonoBehaviour {
 		if (Input.GetKeyUp(KeyCode.L)){
 			lightMode.enabled = !lightMode.enabled;
 		}
+		
 	}
 }
