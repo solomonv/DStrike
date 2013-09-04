@@ -2,15 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ArrowDirectional.cs">
     <Files>
+      <File FileName="Assets\Scripts\ArrowDirectional.cs" Line="21" Column="99" />
       <File FileName="Assets\Scripts\SpaceInvaderMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Laser.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="44" Column="29" />
-      <File FileName="Assets\Scripts\ArrowDirectional.cs" Line="37" Column="51" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MyGui.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Launcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LightScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RotateShip.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
